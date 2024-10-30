@@ -1,4 +1,11 @@
 .footer {
-  font-family: "Jomolhari", serif; 
+  background-color: #141a19;
 }
-
+.logo-footer {
+  color: #fff;
+}
+.nav-list-footer {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
