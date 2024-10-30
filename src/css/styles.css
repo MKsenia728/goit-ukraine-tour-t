@@ -1,18 +1,18 @@
-/**
-  |============================
-  | include css partials with
-  | default @import url()
-  |============================
-*/
+
 /* Common styles */
 @import url('./reset.css');
 @import url('./base.css');
 @import url('./container.css');
-@import url('./animations.css');
+/* @import url('./animations.css'); */
 
 /* Sections style */
 @import url('./header.css');
-@import url('./vite-promo.css');
-@import url('./badges.css');
-@import url('./back-link.css');
+@import url('./hero.css');
+@import url('./about-us.css');
+@import url('./our-tours.css');
+@import url('./gallery.css');
+@import url('./reviews.css');
+@import url('./start-travel.css');
+
 @import url('./footer.css');
+@import url('./modal-menu.css');

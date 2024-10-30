@@ -6,14 +6,15 @@
   padding: 0 16px;
 }
 /* Styles for Tablet devices */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 835px) {
   .container {
-    max-width: 768px;
+    max-width: 835px;
+    padding: 0 32px;
   }
 }
 /* Styles for Desktop devices */
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1440px) {
   .container {
-    max-width: 1200px;
+    max-width: 1440px;
   }
 }
