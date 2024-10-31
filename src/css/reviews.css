@@ -1,0 +1,142 @@
+.reviews {
+  scroll-padding: 16px;
+}
+
+.review-cont {
+  background-size: 100%;
+  background-image: url(../img/reviews/r-bg-mob.jpg);
+  background-repeat: no-repeat;
+  padding: 32px 16px;
+}
+
+@media screen and (min-width: 320px) {
+  .review-cont {
+    background-image: url(../img/reviews/r-bg-mob@2x.jpg);
+  }
+}
+.review-title {
+  font-weight: 400;
+  font-size: 40px;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.block-comment {
+  display: flex;
+  gap: 32px;
+  overflow: auto;
+  scrollbar-width: none;
+  margin-bottom: 32px;
+}
+.name-icon-block {
+  background: transparent;
+  display: block;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  padding: 32px;
+  min-width: 305px;
+  height: 305px;
+}
+
+.name-block {
+  display: flex;
+  align-items: start;
+  margin-bottom: 32px;
+}
+
+.name-star {
+  display: block;
+  margin-left: 24px;
+  margin-bottom: 32px;
+}
+
+.foto-client {
+}
+
+.name-client {
+  font-family: 'Jomolhari', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #fff;
+}
+
+.icon-star-item {
+  display: flex;
+  justify-content: center;
+  gap: 4px;
+}
+.icon-star {
+  fill: #ae990b;
+}
+.text-comment {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+}
+
+.button-cont {
+  display: flex;
+  justify-content: center;
+}
+.scroll-btn {
+  background-color: transparent;
+  border: none;
+}
+.icon-scroll {
+  fill: #5a5959;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.icon-scroll:hover {
+  fill: #fff;
+}
+
+@media screen and (min-width: 835px) {
+  .review-cont {
+    background-image: url(../img/reviews/r-bg-tab.jpg);
+    padding: 58px 32px;
+  }
+
+  @media screen and (min-width: 835px) {
+    .review-cont {
+      background-image: url(../img/reviews/r-bg-tab@2x.jpg);
+    }
+  }
+
+  .review-title {
+    font-size: 64px;
+    margin-bottom: 42px;
+  }
+
+  .name-client {
+    font-size: 20px;
+  }
+
+  .button-cont {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .review-cont {
+    background-image: url(../img/reviews/r-bg-desc.jpg);
+    padding: 58px 32px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    .review-cont {
+      background-image: url(../img/reviews/r-bg-desc@2x.jpg);
+    }
+  }
+
+  .name-icon-block {
+    min-width: 270px;
+  }
+
+  .button-cont {
+    justify-content: space-around;
+  }
+}
