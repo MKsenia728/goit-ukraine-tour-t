@@ -3,12 +3,14 @@
   padding-top: 80px;
   padding-bottom: 16px;
 }
-.logo-footer {
-}
+
 .nav-list-footer {
   display: flex;
   flex-direction: column;
   gap: 8px;
+  margin-bottom: 32px;
+}
+.logo-img-footer {
   margin-bottom: 32px;
 }
 .nav-link-footer {
@@ -32,8 +34,7 @@
   color: #fff;
   font-style: normal;
 }
-.address-link-footer {
-}
+
 .icon-list-footer {
   display: flex;
   flex-direction: row;
@@ -54,4 +55,5 @@
   line-height: 1.4;
   letter-spacing: 0.01em;
   color: #fff;
+  font-style: normal;
 }
