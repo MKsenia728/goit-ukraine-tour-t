@@ -1,11 +1,57 @@
 .footer {
   background-color: #141a19;
+  padding-top: 80px;
+  padding-bottom: 16px;
 }
 .logo-footer {
-  color: #fff;
 }
 .nav-list-footer {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   gap: 8px;
+  margin-bottom: 32px;
+}
+.nav-link-footer {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.4;
+  letter-spacing: 0.01em;
+  color: #fff;
+}
+.address-list-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 32px;
+}
+.address-link-footer {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.4;
+  letter-spacing: 0.01em;
+  color: #fff;
+  font-style: normal;
+}
+.address-link-footer {
+}
+.icon-list-footer {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  margin-bottom: 64px;
+}
+.icon-item-footer {
+  width: 24px;
+  height: 24px;
+}
+.icon-link-footer {
+  fill: #fff;
+}
+.footer-text {
+  text-align: center;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.4;
+  letter-spacing: 0.01em;
+  color: #fff;
 }
