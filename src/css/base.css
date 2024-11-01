@@ -1,8 +1,9 @@
-html {
+/* html {
   scroll-behavior: smooth;
-}
+} */
 
 body {
+ 
   font-family: 'Lato', sans-serif;
   line-height: 1.4;
   letter-spacing: 0.01em;
