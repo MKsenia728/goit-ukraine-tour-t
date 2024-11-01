@@ -16,10 +16,8 @@
 .nav-link-footer {
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.4;
-  letter-spacing: 0.01em;
-  color: #fff;
 }
+
 .address-list-footer {
   display: flex;
   flex-direction: column;
@@ -29,9 +27,6 @@
 .address-link-footer {
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.4;
-  letter-spacing: 0.01em;
-  color: #fff;
   font-style: normal;
 }
 
@@ -52,8 +47,53 @@
   text-align: center;
   font-weight: 400;
   font-size: 12px;
-  line-height: 1.4;
-  letter-spacing: 0.01em;
-  color: #fff;
   font-style: normal;
+}
+@media screen and (min-width: 835px) {
+  .footer {
+    padding-top: 100px;
+  }
+  .container-footer {
+    display: flex;
+    justify-content: space-between;
+  }
+  .address-social {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  .nav-list-footer {
+    gap: 16px;
+    margin-bottom: 0;
+  }
+  .logo-img-footer {
+    width: 169px;
+    height: 125px;
+  }
+  .nav-link-footer {
+    font-size: 18px;
+  }
+  .address-list-footer {
+    align-items: flex-end;
+    gap: 16px;
+    margin-bottom: 40px;
+  }
+  .address-link-footer {
+    font-size: 18px;
+  }
+  .icon-list-footer {
+    margin-bottom: 64px;
+  }
+  .footer-text {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .logo-img-footer {
+    width: 256px;
+    height: 127px;
+  }
+  .icon-list-footer {
+    margin-bottom: 85px;
+  }
 }
