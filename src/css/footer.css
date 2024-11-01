@@ -34,6 +34,8 @@
   display: flex;
   flex-direction: row;
   gap: 15px;
+}
+.container-footer {
   margin-bottom: 64px;
 }
 .icon-item-footer {
@@ -80,9 +82,6 @@
   }
   .address-link-footer {
     font-size: 18px;
-  }
-  .icon-list-footer {
-    margin-bottom: 64px;
   }
   .footer-text {
     font-size: 14px;
