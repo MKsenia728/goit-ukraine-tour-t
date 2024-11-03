@@ -1,5 +1,5 @@
 .footer {
-  background-color: #141a19;
+  font-family: 'Jomolhari', serif;
   padding-top: 80px;
   padding-bottom: 16px;
 }
@@ -13,10 +13,6 @@
 .logo-img-footer {
   margin-bottom: 32px;
 }
-.nav-link-footer {
-  font-weight: 400;
-  font-size: 16px;
-}
 
 .address-list-footer {
   display: flex;
@@ -25,8 +21,6 @@
   margin-bottom: 32px;
 }
 .address-link-footer {
-  font-weight: 400;
-  font-size: 16px;
   font-style: normal;
 }
 
@@ -47,9 +41,7 @@
 }
 .footer-text {
   text-align: center;
-  font-weight: 400;
   font-size: 12px;
-  font-style: normal;
 }
 @media screen and (min-width: 835px) {
   .footer {
@@ -89,8 +81,8 @@
 }
 @media screen and (min-width: 1440px) {
   .logo-img-footer {
-    width: 256px;
-    height: 127px;
+    width: 259px;
+    height: 167px;
   }
   .icon-list-footer {
     margin-bottom: 85px;
