@@ -6,10 +6,12 @@
   background-size: 100%;
   background-image: url(../img/reviews/r-bg-mob.jpg);
   background-repeat: no-repeat;
-  padding: 32px 16px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  overflow: hidden;
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (min-resolution: 192dpi) {
   .review-cont {
     background-image: url(../img/reviews/r-bg-mob@2x.jpg);
   }
@@ -17,17 +19,18 @@
 .review-title {
   font-weight: 400;
   font-size: 40px;
-  color: #fff;
   text-align: center;
   margin-bottom: 32px;
 }
 
 .block-comment {
   display: flex;
-  gap: 32px;
+  gap: 16px;
   overflow: auto;
   scrollbar-width: none;
-  margin-bottom: 32px;
+  margin: 0 -16px 32px;
+  overflow-x: auto;
+  padding: 0 16px;
 }
 .name-icon-block {
   background: transparent;
@@ -35,7 +38,7 @@
   border: 1px solid #fff;
   border-radius: 4px;
   padding: 32px;
-  min-width: 305px;
+  min-width: 310px;
   height: 305px;
 }
 
@@ -47,18 +50,16 @@
 
 .name-star {
   display: block;
-  margin-left: 24px;
-  margin-bottom: 32px;
+  margin: 11px 0;
 }
 
 .foto-client {
+  margin-right: 24px;
 }
 
 .name-client {
   font-family: 'Jomolhari', sans-serif;
-  font-weight: 400;
   font-size: 18px;
-  color: #fff;
 }
 
 .icon-star-item {
@@ -68,12 +69,6 @@
 }
 .icon-star {
   fill: #ae990b;
-}
-.text-comment {
-  font-family: 'Lato', sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  color: #fff;
 }
 
 .button-cont {
@@ -99,7 +94,7 @@
     padding: 58px 32px;
   }
 
-  @media screen and (min-width: 835px) {
+  @media screen and (min-resolution: 192dpi) {
     .review-cont {
       background-image: url(../img/reviews/r-bg-tab@2x.jpg);
     }
@@ -108,6 +103,12 @@
   .review-title {
     font-size: 64px;
     margin-bottom: 42px;
+  }
+
+  .block-comment {
+    gap: 32px;
+    margin: 0 -32px 97px;
+    padding: 0 32px;
   }
 
   .name-client {
@@ -123,10 +124,11 @@
 @media screen and (min-width: 1440px) {
   .review-cont {
     background-image: url(../img/reviews/r-bg-desc.jpg);
-    padding: 58px 32px;
+    padding-top: 64px;
+    padding-bottom: 64px;
   }
 
-  @media screen and (min-width: 1440px) {
+  @media screen and (min-resolution: 192dpi) {
     .review-cont {
       background-image: url(../img/reviews/r-bg-desc@2x.jpg);
     }
