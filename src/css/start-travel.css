@@ -5,39 +5,37 @@
   margin-bottom: 80px;
   width: 100%;
   height: 800px;
-  background-image: url('/src/img/start-travel/tr-img.jpg');
+  background-image: url('../img/start-travel/tr-img.jpg');
   display: flex;
-  justify-content: center;
+  position: relative;
 }
 
 .form-wrap {
-  width: 100%;
-  height: 612px;
+  position: absolute; /* Меняем на абсолютное позиционирование */
+  top: 54px;
+  bottom: 54px;
+  left: 0;
+  right: 0;
+  padding: 40px 16px;
+  backdrop-filter: blur(30px);
+  background: #141a19;
 }
 .start-travel-title {
   font-weight: 400;
   font-size: 32px;
-  line-height: 1.4;
   letter-spacing: 0.01em;
-  color: #fff;
+
   margin-bottom: 24px;
 }
 
 .start-travel-dsc {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.4;
-  letter-spacing: 0.01em;
-  color: #fff;
   width: 320px;
+  margin-bottom: 32px;
 }
 .dist {
   margin-bottom: 24px;
 }
 
-.start-travel-form {
-  margin-top: 32px;
-}
 .start-travel-form-label {
   display: block;
   margin-bottom: 8px;
@@ -57,38 +55,27 @@
 .start-travel-form-input {
   border: 1px solid #fff;
   padding: 14px 12px;
-  width: 343px;
-  height: 50px;
+  width: 100%;
+  font-family: 'Lato', sans-serif;
+
   background-color: transparent;
   outline: transparent;
 }
 
 .start-travel-form-comment {
-  border: 1px solid #fff;
-  padding: 14px 12px;
-  width: 100%;
   height: 102px;
-  background-color: transparent;
-  outline: transparent;
-  font-family: 'Lato', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.4;
   letter-spacing: 0.01em;
 
   resize: none;
-  margin-bottom: 32px;
 }
 
 .start-travel-btn {
-  width: 343px;
+  width: 100%;
   height: 54px;
-  font-family: 'Jomolhari', sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.4;
-  letter-spacing: 0.01em;
-  color: #fff;
+  margin-top: 0;
 }
 
 .start-travel-form-input::placeholder {
@@ -105,23 +92,23 @@
   .form-wrap {
     border: 1px solid #fff;
     border-radius: 4px;
-    width: 770px;
-    height: 516px;
-    background: #141a19;
+    width: 672px;
+    height: 70%;
 
     display: flex;
-    gap: 32px;
-
-    justify-content: center;
+    padding: 17px 49px 121px 49px;
+    justify-content: space-between;
   }
 
   .start-travel-title {
     margin-bottom: 24px;
   }
 
-  .start-travel-form-wrap {
-    background-image: url('/src/img/start-travel/tr-img.jpg');
-  }
-  .text-wrap {
+  .start-travel {
+    background-image: url('../img/start-travel/tr-img.jpg');
+    background-size: cover;
+    position: left;
+    width: 602px;
+    height: 786px;
   }
 }
