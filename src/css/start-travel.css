@@ -1,17 +1,17 @@
 /* Styles for Mobile devices */
 
-.start-travel {
+.start-travel-container {
   margin-top: 80px;
   margin-bottom: 80px;
   width: 100%;
   height: 800px;
-  background-image: url('../img/start-travel/tr-img.jpg');
-  display: flex;
+  padding-left: 0;
+  background-image: url('/img/start-travel/tr-img.jpg');
   position: relative;
 }
 
 .form-wrap {
-  position: absolute; /* Меняем на абсолютное позиционирование */
+  position: absolute;
   top: 54px;
   bottom: 54px;
   left: 0;
@@ -19,6 +19,12 @@
   padding: 40px 16px;
   backdrop-filter: blur(30px);
   background: #141a19;
+}
+
+.start-title {
+  font-family: 'Jomolhari', sans-serif;
+  font-weight: 400;
+  font-size: 40px;
 }
 .start-travel-title {
   font-weight: 400;
@@ -92,23 +98,72 @@
   .form-wrap {
     border: 1px solid #fff;
     border-radius: 4px;
-    width: 672px;
-    height: 70%;
-
+    width: 770px;
+    height: 516px;
     display: flex;
     padding: 17px 49px 121px 49px;
     justify-content: space-between;
+    align-items: flex-start;
+
+    top: 50%; /* Сдвигаем на 50% вниз */
+    left: 50%; /* Сдвигаем на 50% вправо */
+    transform: translate(-40%, -50%);
   }
 
   .start-travel-title {
     margin-bottom: 24px;
   }
 
-  .start-travel {
-    background-image: url('../img/start-travel/tr-img.jpg');
+  .start-travel-container {
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 72px 24px;
+    align-items: baseline;
+    justify-content: flex-start;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+
+  .bg-container {
+    background-image: url('/img/start-travel/tr-img.jpg');
     background-size: cover;
-    position: left;
-    width: 602px;
+    background-position: left;
+    background-repeat: no-repeat;
+    margin-left: 0;
+    width: 80%;
     height: 786px;
+  }
+
+  .text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 32px;
+    flex: 1;
+  }
+  .start-travel-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+  }
+}
+
+/* Styles for Desktop devices */
+@media only screen and (min-width: 1440px) {
+  .bg-container {
+    background-image: url('/img/start-travel/tr-img.jpg');
+    background-size: cover;
+    background-position: left center;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 840px;
+  }
+
+  .form-wrap {
+    width: 1032px;
+    height: 570px;
+    padding: 96px 180px;
+    transform: translate(0, -50%);
   }
 }
