@@ -14,6 +14,11 @@
   pointer-events: none;
   z-index: 999;
 }
+@media screen and (max-width: 834px) and (min-resolution: 192dpi) {
+  .modal-menu {
+    background-image: url(/img/modalka/photo-modal@2.webp);
+  }
+}
 .modal-menu.is-open {
   opacity: 1;
   visibility: visible;
@@ -51,11 +56,6 @@
   flex-direction: column;
   align-items: center;
   gap: 16px;
-}
-.nav-item-modal {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.4;
 }
 
 @media screen and (min-width: 835px) {
