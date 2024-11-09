@@ -1,5 +1,11 @@
 <svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
+ <symbol id="icon-arrow-right" viewBox="0 0 195 32">
+            <path d="M193.415 17.414c0.78-0.781 0.78-2.047 0-2.829l-12.728-12.728c-0.781-0.781-2.048-0.781-2.829 0-0.78 0.781-0.78 2.047 0 2.828l11.315 11.314-11.315 11.314c-0.78 0.781-0.78 2.047 0 2.828 0.781 0.781 2.048 0.781 2.829 0l12.728-12.728zM0 18h192v-4h-192v4z"></path>
+        </symbol>
+        <symbol id="icon-arrow-left" viewBox="0 0 195 32">
+            <path d="M1.252 14.586c-0.781 0.781-0.781 2.047 0 2.828l12.728 12.728c0.781 0.781 2.047 0.781 2.828 0s0.781-2.047 0-2.828l-11.314-11.314 11.314-11.314c0.781-0.781 0.781-2.047 0-2.828s-2.047-0.781-2.828 0l-12.728 12.728zM194.667 14h-192v4h192v-4z"></path>
+        </symbol>
 <symbol id="icon-btn-close" viewBox="0 0 32 32">
 <path fill="none" stroke="#fff" style="stroke: var(--color1, #fff)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.6" d="M24 8l-16 16"></path>
 <path fill="none" stroke="#fff" style="stroke: var(--color1, #fff)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.6" d="M8 8l16 16"></path>
