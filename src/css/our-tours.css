@@ -1,0 +1,300 @@
+.our-tours {
+  background-image: repeating-radial-gradient(
+      circle at 0 0,
+      transparent 0,
+      #141a19 32px
+    ),
+    repeating-linear-gradient(#1a2422, #1a2422);
+  position: relative;
+}
+
+.slider {
+  overflow: hidden;
+  width: 100%;
+}
+
+.slides {
+  display: flex;
+  transition: transform 0.5s ease-in;
+}
+
+.slide {
+  flex: 1 0 100%;
+}
+
+.tours-main-title {
+  width: 174px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 32px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 1.4;
+  letter-spacing: 0.01em;
+}
+
+.tours-list {
+  display: flex;
+}
+
+.wrapper-overlay {
+  position: relative;
+  overflow: hidden;
+  width: 375px;
+}
+
+.wrapper-overlay:hover .overlay-desc {
+  opacity: 1;
+}
+
+.overlay-desc {
+  font-size: 16px;
+  line-height: 1.4;
+  letter-spacing: 0.01em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  width: 375px;
+  height: 100%;
+  padding: 20px 16px 0 16px;
+  overflow: auto;
+  background-color: #ffffff25;
+  backdrop-filter: blur(4px);
+  transition: opacity 250ms ease-in;
+}
+
+.wrapper-text-tour {
+  padding: 0 16px 0 16px;
+}
+
+.tours-sub-title {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.4;
+  letter-spacing: 0.01em;
+  width: 343px;
+  margin: 16px 0 16px 0;
+}
+
+.list-tours-schedule {
+  list-style-type: disc;
+  padding-left: 16px;
+  margin-bottom: 16px;
+}
+
+.item-schedule {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.4;
+  letter-spacing: 0.01em;
+  max-width: 496px;
+}
+
+.title-tours-benefits {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.4;
+  letter-spacing: 0.01em;
+  margin-bottom: 16px;
+}
+
+svg {
+  display: inline-block;
+}
+
+.list-benefits {
+  display: flex;
+  flex-direction: column;
+  row-gap: 9px;
+}
+
+.list-benefits-item {
+  display: flex;
+  align-items: center;
+  column-gap: 16px;
+  fill: #fff;
+}
+
+.wrapper-list-benefits {
+  margin-bottom: 32px;
+}
+
+.up-case {
+  text-transform: uppercase;
+  margin-left: 72px;
+}
+
+.price {
+  display: none;
+}
+
+.wrapper-btn-book {
+  padding-bottom: 43px;
+}
+
+.tours-book-btn {
+  min-width: 343px;
+  height: 54px;
+}
+
+.tours-book-btn:hover,
+.tours-book-btn:focus {
+  background-color: transparent;
+}
+
+.btn-arrow {
+  background-color: transparent;
+  border-color: transparent;
+  position: absolute;
+  width: 144px;
+  height: 22px;
+  display: flex;
+  align-items: center;
+}
+
+.arrow-left {
+  fill: #5a5959;
+  bottom: 0;
+  left: 0;
+}
+
+.arrow-right {
+  fill: #fff;
+  bottom: 0;
+  right: 0;
+}
+
+@media screen and (min-width: 835px) {
+  .tours-main-title {
+    font-size: 64px;
+    margin-bottom: 64px;
+    width: 279px;
+  }
+
+  .wrapper-overlay {
+    width: 835px;
+  }
+
+  .overlay-desc {
+    width: 835px;
+  }
+
+  .wrapper-text-tour {
+    padding: 0 32px 0 32px;
+  }
+
+  .tours-sub-title {
+    width: 770px;
+    font-size: 32px;
+    margin: 40px 0 24px 0;
+  }
+
+  .inner-box-position {
+    display: flex;
+    column-gap: 32px;
+  }
+
+  .list-tours-schedule {
+    margin-bottom: 0;
+    width: 496px;
+  }
+
+  .wrapper-list-benefits {
+    margin-bottom: 0;
+  }
+
+  .inner-box-position {
+    margin-bottom: 32px;
+  }
+
+  .tours-book-btn {
+    min-width: 169px;
+  }
+
+  .wrapper-btn-book {
+    padding-bottom: 80px;
+  }
+
+  .arrow-left {
+    bottom: 20px;
+    left: 169px;
+  }
+
+  .arrow-right {
+    bottom: 20px;
+    right: 169px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .our-tours {
+    background-image: url(../img/our-tours/tree.svg);
+    background-color: rgba(20, 26, 25, 0.8);
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-position: bottom 85px right 42px;
+  }
+
+  .slide {
+    flex: 1 0 50%;
+  }
+
+  .wrapper-overlay {
+    width: 704px;
+  }
+
+  .overlay-desc {
+    width: 704px;
+    font-size: 20px;
+  }
+
+  .wrapper-text-tour {
+    margin-top: 106px;
+  }
+
+  .tours-sub-title {
+    margin: 0 0 32px 0;
+  }
+
+  .inner-box-position {
+    flex-direction: column;
+    column-gap: 0;
+    row-gap: 18px;
+  }
+
+  .wrapper-btn-book {
+    display: flex;
+    align-items: center;
+  }
+
+  .tours-book-btn {
+    min-width: 144px;
+    margin-right: 38px;
+  }
+
+  .price {
+    display: block;
+    font-family: 'Jomolhari', sans-serif;
+    font-size: 32px;
+    line-height: 1.4;
+    letter-spacing: 0.01em;
+    color: #fff;
+  }
+
+  .arrow-left {
+    left: 32px;
+    top: 53%;
+    transform: translateY(-50%);
+  }
+
+  .arrow-right {
+    right: 32px;
+    top: 53%;
+    transform: translateY(-50%);
+  }
+}
