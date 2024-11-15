@@ -23,7 +23,6 @@
 }
 
 .tours-main-title {
-  width: 174px;
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 32px;
@@ -85,6 +84,19 @@
   list-style-type: disc;
   padding-left: 16px;
   margin-bottom: 16px;
+  height: 132px;
+  overflow-y: scroll;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  background-image: linear-gradient(
+    270deg,
+    rgba(0, 0, 0, 0.2) 0%,
+    transparent 80%
+  );
+}
+
+.list-tours-schedule::-webkit-scrollbar {
+  display: none;
 }
 
 .item-schedule {
@@ -237,7 +249,7 @@ svg {
     background-color: rgba(20, 26, 25, 0.8);
     background-blend-mode: multiply;
     background-repeat: no-repeat;
-    background-position: bottom 85px right 42px;
+    background-position: bottom 85px right 640px;
   }
 
   .slide {
@@ -265,6 +277,13 @@ svg {
     flex-direction: column;
     column-gap: 0;
     row-gap: 18px;
+  }
+
+  .list-tours-schedule {
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    background-color: #1a2422;
+    background-image: linear-gradient(270deg, #1a2422 0%, #141a19 80%);
   }
 
   .wrapper-btn-book {
