@@ -1,22 +1,15 @@
 .container-about {
   padding-top: 80px;
   padding-bottom: 80px;
+  position: relative;
 }
 
 .about-us-bg {
   display: block;
-  width: 1024px;
+  min-width: 1024px;
   height: 573px;
-  overflow: hidden;
-
-}
-
-.about-wrapper {
-  background-image: url(../img/about-us/map-mob.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 100%;
-  /* overflow: hidden; */
+  position:absolute;
+  left: calc(50% - 512px);
 }
 
 .about-title {
