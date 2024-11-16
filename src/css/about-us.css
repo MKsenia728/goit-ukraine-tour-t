@@ -3,13 +3,13 @@
   padding-bottom: 80px;
 }
 
-/* .about-wrapper {
+.about-wrapper {
   background-image: url(../img/about-us/map.svg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
   overflow: hidden;
-} */
+}
 
 .about-title {
   font-size: 40px;
