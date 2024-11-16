@@ -3,12 +3,20 @@
   padding-bottom: 80px;
 }
 
+.about-us-bg {
+  display: block;
+  width: 1024px;
+  height: 573px;
+  overflow: hidden;
+
+}
+
 .about-wrapper {
-  background-image: url(../img/about-us/map.svg);
+  background-image: url(../img/about-us/map-mob.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .about-title {
