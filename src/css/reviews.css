@@ -38,7 +38,7 @@
   border: 1px solid #fff;
   border-radius: 4px;
   padding: 32px;
-  min-width: 310px;
+  min-width: calc(320px - 16px * 2);
   height: 305px;
 }
 
