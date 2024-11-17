@@ -1,4 +1,90 @@
 .footer {
-  font-family: "Jomolhari", serif; 
+  font-family: 'Jomolhari', serif;
+  padding-top: 80px;
+  padding-bottom: 16px;
 }
 
+.nav-list-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 32px;
+}
+.logo-img-footer {
+  margin-bottom: 32px;
+}
+
+.address-list-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 32px;
+}
+.address-link-footer {
+  font-style: normal;
+}
+
+.icon-list-footer {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+.container-footer {
+  margin-bottom: 64px;
+}
+.icon-item-footer {
+  width: 24px;
+  height: 24px;
+}
+.icon-link-footer {
+  fill: #fff;
+}
+.footer-text {
+  text-align: center;
+  font-size: 12px;
+}
+@media screen and (min-width: 835px) {
+  .footer {
+    padding-top: 100px;
+  }
+  .container-footer {
+    display: flex;
+    justify-content: space-between;
+  }
+  .address-social {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  .nav-list-footer {
+    gap: 16px;
+    margin-bottom: 0;
+  }
+  .logo-img-footer {
+    width: 169px;
+    height: 125px;
+  }
+  .nav-link-footer {
+    font-size: 18px;
+  }
+  .address-list-footer {
+    align-items: flex-end;
+    gap: 16px;
+    margin-bottom: 40px;
+  }
+  .address-link-footer {
+    font-size: 18px;
+  }
+  .footer-text {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .logo-img-footer {
+    width: 259px;
+    height: 167px;
+  }
+  .icon-list-footer {
+    margin-bottom: 85px;
+  }
+}
